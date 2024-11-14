@@ -1,6 +1,6 @@
-# Latihan 1
+# Latihan Praktikum 5
 
-## Hasil Latihan 1
+## Hasil Latihan Praktikum 5 
 ````Python
 data_mahasiswa = []
 
@@ -38,7 +38,8 @@ for mhs in data_mahasiswa:
 print("="*80)
 ````
 
-## Hasil Output
+## Hasil Output Praktikum 5
+
 ```markdown
 Masukkan data mahasiswa:
 Nama: ALDI RISMANDAYANA
@@ -56,4 +57,4 @@ Nama            NIM        Tugas      UTS        UAS        Nilai Akhir
 ALDI RISMANDAYANA 312410015  99.0       89.0       99.0       95.50
 ================================================================================
 ```
-
+# Penjelasan Latihan Praktikum 5
