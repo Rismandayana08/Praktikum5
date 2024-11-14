@@ -39,5 +39,21 @@ print("="*80)
 ````
 
 ## Hasil Output
+```markdown
+Masukkan data mahasiswa:
+Nama: ALDI RISMANDAYANA
+NIM: 312410015
+Nilai Tugas: 99
+Nilai UTS: 89
+Nilai UAS: 99
 
+Tambah data lagi? (y/t): t
+
+Daftar Nilai Mahasiswa:
+================================================================================
+Nama            NIM        Tugas      UTS        UAS        Nilai Akhir
+================================================================================
+ALDI RISMANDAYANA 312410015  99.0       89.0       99.0       95.50
+================================================================================
+```
 
