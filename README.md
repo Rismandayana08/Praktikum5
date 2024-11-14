@@ -67,15 +67,13 @@ Tambah Data(y/t)? t
   2  |      AGUS     |   3124   |     90.0    |   89.0   |   99.0   |  92.80
 ```
 # Penjelasan Latihan Praktikum 5
-
-Penjelasan Hasil Pemrograman Sederhana
-Analisis Kode Python untuk Input dan Perhitungan Nilai Mahasiswa
+## Analisis Kode Python untuk Input dan Perhitungan Nilai Mahasiswa
 Kode di atas merupakan implementasi sederhana dalam Python untuk
 
-Membuat input data mahasiswa: Pengguna secara berulang diminta untuk memasukkan nama, NIM, dan nilai-nilai tugas, UTS, serta UAS.
-Menghitung nilai akhir: Nilai akhir dihitung berdasarkan bobot masing-masing komponen nilai (tugas, UTS, UAS).
-Menyimpan data dalam list: Setiap data mahasiswa disimpan dalam bentuk dictionary (kamus) dan kemudian ditambahkan ke dalam list data_mahasiswa.
-Menampilkan data: Setelah semua data dimasukkan, program akan menampilkan daftar nilai mahasiswa dalam bentuk tabel yang terformat.
-Penjelasan Lebih Detail:
+1. Membuat input data mahasiswa    : Pengguna secara berulang diminta untuk memasukkan nama, NIM, dan nilai-nilai tugas, UTS, serta UAS.
+2. Menghitung nilai akhir    : Nilai akhir dihitung berdasarkan bobot masing-masing komponen nilai (tugas, UTS, UAS).
+3. Menyimpan data dalam list    : Setiap data mahasiswa disimpan dalam bentuk dictionary (kamus) dan kemudian ditambahkan ke dalam list data_mahasiswa.
+4. Menampilkan data    : Setelah semua data dimasukkan, program akan menampilkan daftar nilai mahasiswa dalam bentuk tabel yang terformat.
 
+penjelasan Lebih Detail    :
 data_mahasiswa = []: Membuat list kosong untuk menyimpan data mahasiswa. while True:: Looping tak terbatas untuk terus meminta input data hingga pengguna memilih untuk berhenti. input(): Fungsi untuk mengambil input dari pengguna. float(): Mengubah inputan nilai tugas, UTS, dan UAS menjadi tipe data float (bilangan desimal). .append(): Menambahkan dictionary yang berisi data mahasiswa ke dalam list data_mahasiswa. f-string: Digunakan untuk format output dengan cara yang lebih mudah dan fleksibel. :<15: Menentukan lebar kolom untuk setiap data, misalnya nama akan memiliki lebar 15 karakter. .2f: Memformat nilai akhir dengan 2 angka di belakang koma.
